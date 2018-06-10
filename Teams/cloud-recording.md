@@ -16,7 +16,7 @@ appliesto:
 > [!Note]
 > [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-In Microsoft Teams, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and search for important discussion items in the transcript. The recording happens in the cloud and is saved to [Microsoft Stream](https://docs.microsoft.com/en-us/stream/), so users can share it securely across their organization.     
+In Microsoft Teams, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and search for important discussion items in the transcript. The recording happens in the cloud and is saved to [Microsoft Stream](https://docs.microsoft.com/en-us/stream/), so users can share it securely across their organization.  
 
 Related: [Teams meeting recording end user documentation](http://aka.ms/recordmeeting)
 
@@ -27,10 +27,9 @@ For a Teams user’s meetings to be recorded, Microsoft Stream must be enabled f
 - User has an Office 365 Enterprise E1, E3, or E5 license  
 - User needs to be licensed for Microsoft Stream 
 - User has Microsoft Stream upload video permissions 
-- User has consented to the company guidelines, if set up by the admin 
+- User has consented to the Microsoft Stream company guidelines, if set up by the admin in Microsoft Stream portal 
 - User has sufficient storage in Microsoft Stream for recordings to be saved  
-- User has TeamsMeetingPolicy-AllowCloudRecording setting set to true  
-- User has TeamsMeetingPolicy.AllowTranscription setting set to true, so user can choose whether to automatically transcribe the recordings  
+- User has TeamsMeetingPolicy-AllowCloudRecording setting set to true    
 - User is not an anonymous, Guest, or federated user in the meeting  
  
 ## Set up Teams cloud meeting recording for users in your organization
