@@ -28,7 +28,7 @@ Most Skype for Business features are available to .gov, .edu, and nonprofit orga
 
 |**Skype for Business feature**|**Available to .GOV (GCC)**|**Available to .GOV (non-GCC)**|**Available to .EDU**|**Available to non-profit organizations**|
 |:-----|:-----|:-----|:-----|:-----|
-|Skype Meeting Broadcast  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |
+|Skype Meeting Broadcast  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |Skype for Business Audio Conferencing  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |Office 365 Phone System  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |Office 365 Calling Plan  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
