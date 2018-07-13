@@ -213,11 +213,11 @@ This allows live event organizers to create events with appropriate attendee vis
 
 PowerShell
 
-Use the setting BroadcastAttendeeVisibility in TeamsMeetingBroadcastPolicy in PowerShell to control whether the users can schedule broadcast events that can be watched by anonymous attendees. You can learn more about managing TeamsMeetingBroadcastPolicy with Office 365 PowerShell here.  
+Use the setting BroadcastAttendeeVisibility in TeamsMeetingBroadcastPolicy in PowerShell to control whether the users can schedule live events that can be watched by anonymous attendees. 
 
 Unless you have assigned a custom policy to the users, the users get Global policy, which has default set to EveryoneInCompany. 
  
-In Windows PowerShell, run the following cmdlet to allow users to create anonymous events in the global policy:
+In Windows PowerShell, run the following cmdlet to allow event organizers to create anonymous events in the global policy:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility Everyone  
 ```
@@ -229,13 +229,15 @@ This allows admins to control whether the live events are always recorded, never
 
 |Values  |Behavior  |
 |---------|---------|
-|Always enabled |The live events organized by this user are always recorded.  User doesn’t have an option to override.  If the live event is recorded, the event team members are able to download the recording after the event and the attendees can watch the event after the event is over. |
+|AlwaysEnabled |The live events organized by this user are always recorded.  User doesn’t have an option to override.  If the live event is recorded, the event team members are able to download the recording after the event and the attendees can watch the event after the event is over. |
 |AlwaysDisabled |The live events organized by this user are never recorded.  User doesn’t have an option to override.  If the live event is recorded, no recording is created for the event team members and the attendees cannot watch the event after it is over. |
 |UserOverride |User can decide whether the live event is recorded so a recording file can be created for the event team members and attendees can watch the event after the event is over. |
 
 PowerShell
 
-Use the setting BroadcastRecordingMode in TeamsMeetingBroadcastPolicy in PowerShell to control recording options of the live events created by the live event organizer.
+Use the setting BroadcastRecordingMode in TeamsMeetingBroadcastPolicy in PowerShell to control recording options of the live events created by the live event organizer. 
+
+Unless you have assigned a custom policy to the users, the users get Global policy, which has default set to UserOverride.
 
 In Windows PowerShell, run the following cmdlet to update recording mode in the global policy:
 ```
@@ -249,7 +251,7 @@ This allows live event organizers to turn real-time captions and translation for
 
 PowerShell
 
-Use the setting AllowBroadcastTranscription in TeamsMeetingBroadcastPolicy in PowerShell to control whether the live event attendees will be able to see   You can learn more about managing TeamsMeetingBroadcastPolicy with Office 365 PowerShell here.  
+Use the setting AllowBroadcastTranscription in TeamsMeetingBroadcastPolicy in PowerShell to control whether the live event attendees will be able to see real-time & on-demand captions, in the language of their choice, during & after the event.  
 
 Unless you have assigned a custom policy to the users, the users get Global policy, which has transcription & translation disabled by default.
 
