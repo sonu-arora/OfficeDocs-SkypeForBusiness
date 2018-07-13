@@ -262,9 +262,9 @@ Although Microsoft directly controls all Office 365 Online data centers and is r
 
 Customers can use the following tools to manage a variety of Teams live events related tasks.
 - [Microsoft Office 365 admin center](https://technet.microsoft.com/en-us/library/exchange-online-administration-and-management.aspx?f=255&MSPPError=-2147217396#BKMK_Office365admincenterl)
-- [Microsoft Teams and Skype for Business Online admin center](https://technet.microsoft.com/en-us/library/exchange-online-administration-and-management.aspx?f=255&MSPPError=-2147217396#BKMK_ExchangeAdministrationCenter)
-- Microsoft Stream admin center
-- [Remote Windows PowerShell](https://technet.microsoft.com/en-us/library/exchange-online-administration-and-management.aspx?f=255&MSPPError=-2147217396#BKMK_RemoteWindowsPowerShell)
+- [Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525039)
+- [Microsoft Teams and Skype for Business Online admin center (Coming Soon)](https://technet.microsoft.com/en-us/library/exchange-online-administration-and-management.aspx?f=255&MSPPError=-2147217396#BKMK_ExchangeAdministrationCenter)
+
 
 ### Want to know more about Windows PowerShell?
 - When it comes to Windows PowerShell, its all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
