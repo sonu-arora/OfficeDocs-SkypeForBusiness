@@ -14,6 +14,7 @@ appliesto:
 
 # What are Teams live events?
 **Summary**: Learn how live events enable users to broadcast video and content to large online audiences in Microsoft Teams, Yammer, and Microsoft Stream.
+Note: This feature is currently available as a preview.
 
 ## Overview
 Live events in Microsoft 365 enable users to broadcast video and content to large online audiences in Microsoft Teams, Yammer and [Microsoft Stream](https://docs.microsoft.com/en-us/stream/). 
